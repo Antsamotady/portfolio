@@ -1,6 +1,3 @@
-import 'bootstrap/plugins/global/plugins.bundle.css';
-import 'bootstrap/css/style.bundle.css';
-// import 'bootstrap/plugins/global/plugins.bundle.js';
 import errora from 'bootstrap/media/illustrations/sketchy-1/18.png';
 
 function App() {
