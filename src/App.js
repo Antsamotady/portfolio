@@ -1,15 +1,12 @@
-import logo from './logo.svg';
-
-import './App.css';
 import 'bootstrap/plugins/global/plugins.bundle.css';
 import 'bootstrap/css/style.bundle.css';
-import bigSary from 'bootstrap/media/illustrations/sketchy-1/1-dark.png';
+// import 'bootstrap/plugins/global/plugins.bundle.js';
 import errora from 'bootstrap/media/illustrations/sketchy-1/18.png';
 
 function App() {
   return (
     <div className="App">
-      
+
       <div className="auth-bg">
         <div className="d-flex flex-column flex-root">
           <div className="d-flex flex-column flex-center flex-column-fluid p-10">
