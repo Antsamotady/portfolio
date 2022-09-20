@@ -1,4 +1,6 @@
 import errora from 'bootstrap/media/illustrations/sketchy-1/18.png';
+import skt from 'bootstrap/media/illustrations/sketchy-1/1.png';
+
 import img_11 from 'bootstrap/media/stock/600x600/img-11.jpg';
 import img_12 from 'bootstrap/media/stock/600x600/img-12.jpg';
 import img_20 from 'bootstrap/media/stock/600x600/img-20.jpg';
@@ -12,7 +14,7 @@ import apple_black from 'bootstrap/media/svg/brand-logos/apple-black.svg';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${ img_22 })` }}>
       <h1 className="text-center text-dark">Something as title</h1>
       <div className="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed">
         <div className="container">
@@ -25,9 +27,7 @@ function App() {
                   <div className="col-lg-4">
                     <div className="card overlay border">
                       <div className="card-body p-0">
-                        <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center">
-                          <img alt="Logo" src={ img_22 } className="h-300px me-3" />
-                        </div>
+                        <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center" style={{ backgroundImage: `url(${ img_22 })` }}></div>
                         <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                           <code className="py-2 px-4">Some label1</code>
                         </div>
@@ -37,9 +37,7 @@ function App() {
                   <div className="col-lg-4">
                     <div className="card overlay border">
                       <div className="card-body p-0">
-                        <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center">
-                          <img alt="Logo" src={ img_21 } className="h-300px me-3" />
-                        </div>
+                      <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center" style={{ backgroundImage: `url(${ img_21 })` }}></div>
                         <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                           <code className="py-2 px-4">Some label</code>
                         </div>
@@ -49,9 +47,7 @@ function App() {
                   <div className="col-lg-4">
                     <div className="card overlay border">
                       <div className="card-body p-0">
-                        <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center">
-                          <img alt="Logo" src={ img_20 } className="h-300px me-3" />
-                        </div>
+                      <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center" style={{ backgroundImage: `url(${ img_20 })` }}></div>
                         <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                           <code className="py-2 px-4">Some label</code>
                         </div>
@@ -61,9 +57,7 @@ function App() {
                   <div className="col-lg-4">
                     <div className="card overlay border">
                       <div className="card-body p-0">
-                        <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center">
-                          <img alt="Logo" src={ img_12 } className="h-300px me-3" />
-                        </div>
+                      <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center" style={{ backgroundImage: `url(${ img_12 })` }}></div>
                         <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                           <code className="py-2 px-4">Some label</code>
                         </div>
@@ -73,9 +67,7 @@ function App() {
                   <div className="col-lg-4">
                     <div className="card overlay border">
                       <div className="card-body p-0">
-                        <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center">
-                          <img alt="Logo" src={ img_11 } className="h-300px me-3" />
-                        </div>
+                      <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center" style={{ backgroundImage: `url(${ img_11 })` }}></div>
                         <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                           <code className="py-2 px-4">Some label</code>
                         </div>
@@ -85,9 +77,7 @@ function App() {
                   <div className="col-lg-4">
                     <div className="card overlay border">
                       <div className="card-body p-0">
-                        <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center">
-                          <img alt="Logo" src={ img_23 } className="h-300px me-3" />
-                        </div>
+                      <div className="overlay-wrapper h-300px bgi-no-repeat bgi-size-contain bgi-position-center" style={{ backgroundImage: `url(${ img_23 })` }}></div>
                         <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                           <code className="py-2 px-4">Some label</code>
                         </div>
