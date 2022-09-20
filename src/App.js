@@ -1,4 +1,19 @@
 import myown_bg from './public/DSC_0368_croped.JPG';
+import Neh_9_20 from './public/Neh_9_20.jpg';
+import myself from './public/IMG_20200418_172346.jpg';
+import Sal_122 from './public/Sal_122.7.png';
+import saka from './public/IMG_20170514_170825.jpg';
+import Mn from './public/Mn.png';
+import Ephes_6 from './public/Ephes_6.12.png';
+import Dm from './public/Dm.png';
+import swim from './public/vlcsnap-2021-05-08-07h09m42s163.png';
+import Bd from './public/Bd.png';
+import Lio_15_18a from './public/Lio_15_18a.png';
+import kiki from './public/DSC_0344.JPG';
+import II_Tim_4 from './public/II_Tim_4.5.png';
+import cover from './public/cover.png';
+import Dan_12_3 from './public/Dan_12_3.jpg';
+import postal_card from './public/DSC_0273.JPG';
 
 import errora from 'bootstrap/media/illustrations/sketchy-1/18.png';
 import skt from 'bootstrap/media/illustrations/sketchy-1/1.png';
@@ -40,7 +55,7 @@ function App() {
                     <div className="col-lg-4">
                       <div className="card overlay border">
                         <div className="card-body p-0">
-                          <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ img_22 })` }}></div>
+                          <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Neh_9_20 })` }}></div>
                           <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                             <code className="py-2 px-4">Some label1</code>
                           </div>
@@ -50,7 +65,7 @@ function App() {
                     <div className="col-lg-4">
                       <div className="card overlay border">
                         <div className="card-body p-0">
-                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ img_21 })` }}></div>
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ myself })` }}></div>
                           <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                             <code className="py-2 px-4">Some label</code>
                           </div>
@@ -60,7 +75,7 @@ function App() {
                     <div className="col-lg-4">
                       <div className="card overlay border">
                         <div className="card-body p-0">
-                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ img_20 })` }}></div>
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Sal_122 })` }}></div>
                           <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                             <code className="py-2 px-4">Some label</code>
                           </div>
@@ -70,7 +85,7 @@ function App() {
                     <div className="col-lg-4">
                       <div className="card overlay border">
                         <div className="card-body p-0">
-                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ img_12 })` }}></div>
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ saka })` }}></div>
                           <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                             <code className="py-2 px-4">Some label</code>
                           </div>
@@ -80,7 +95,7 @@ function App() {
                     <div className="col-lg-4">
                       <div className="card overlay border">
                         <div className="card-body p-0">
-                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ img_11 })` }}></div>
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Mn })` }}></div>
                           <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                             <code className="py-2 px-4">Some label</code>
                           </div>
@@ -90,7 +105,97 @@ function App() {
                     <div className="col-lg-4">
                       <div className="card overlay border">
                         <div className="card-body p-0">
-                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ img_23 })` }}></div>
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Ephes_6 })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Some label</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Dm })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Some label</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ swim })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Some label</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Bd })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Some label</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Lio_15_18a })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Some label</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ kiki })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Some label</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ II_Tim_4 })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Some label</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ cover })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Some label</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Dan_12_3 })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Some label</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                        <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ postal_card })` }}></div>
                           <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
                             <code className="py-2 px-4">Some label</code>
                           </div>
