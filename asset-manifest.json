@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Antsamotady/portfolio/static/css/main.a9283658.css",
-    "main.js": "/Antsamotady/portfolio/static/js/main.e1b5004e.js",
+    "main.js": "/Antsamotady/portfolio/static/js/main.b12abfd9.js",
     "static/js/787.d2496167.chunk.js": "/Antsamotady/portfolio/static/js/787.d2496167.chunk.js",
     "static/media/Ephes_6.12.png": "/Antsamotady/portfolio/static/media/Ephes_6.12.06ec63241c2b217d1721.png",
     "static/media/cover.png": "/Antsamotady/portfolio/static/media/cover.56415ed83f5088cead29.png",
@@ -63,11 +63,11 @@
     "static/media/facebook.svg": "/Antsamotady/portfolio/static/media/facebook.65c147ed1db48a0ef833f74df8b51d2f.svg",
     "static/media/logo-stackoverflow-svgrepo-com.svg": "/Antsamotady/portfolio/static/media/logo-stackoverflow-svgrepo-com.4c96bc4f5b96bd114a3891d555b69e03.svg",
     "main.a9283658.css.map": "/Antsamotady/portfolio/static/css/main.a9283658.css.map",
-    "main.e1b5004e.js.map": "/Antsamotady/portfolio/static/js/main.e1b5004e.js.map",
+    "main.b12abfd9.js.map": "/Antsamotady/portfolio/static/js/main.b12abfd9.js.map",
     "787.d2496167.chunk.js.map": "/Antsamotady/portfolio/static/js/787.d2496167.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9283658.css",
-    "static/js/main.e1b5004e.js"
+    "static/js/main.b12abfd9.js"
   ]
 }
