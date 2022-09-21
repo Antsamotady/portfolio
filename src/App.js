@@ -33,6 +33,8 @@ import youtube from 'bootstrap/media/svg/social-logos/youtube.svg';
 import github from 'bootstrap/media/svg/social-logos/github.svg';
 import insta from 'bootstrap/media/svg/social-logos/instagram.svg';
 import fb from 'bootstrap/media/svg/social-logos/facebook.svg';
+import stack from './logo-stackoverflow-svgrepo-com.svg';
+import mail_logo from './gmail-svgrepo-com.svg';
 
 function App() {
   return (
@@ -40,8 +42,9 @@ function App() {
     <div className="App bg-light">
       <div className="text-center">
         <div className="fw-bold fs-3 text-white mb-5">.</div>
-        <h1 className="fs-2hx fw-bolder mb-15">
-          <span className="text-hover-primary">Hasintsilavina</span><span className="text-white"> website</span></h1>
+        <h1 className="fs-2hx fw-bolder mb-5">
+          <p className="display-1 text-hover-primary">Hasintsilavina</p><span className="text-white"> here!</span></h1>
+          <div className="fw-bold fs-3 text-muted mb-15">Graphic Designer & Web developper</div>
       </div>
 
       <div className="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed mb-10">
@@ -50,7 +53,10 @@ function App() {
             <div className="card-body fs-6 py-15 px-10 py-lg-15 px-lg-15 text-gray-700">
               <div className="tab-content">
                 <div className="tab-pane fade show active" id="kt_illustration_sketchy-1">
-                  <div className="mb-10">Here are some of my work. Please visit my socials down below if you want to see more.</div>
+                  <div className="mb-10">
+                    <p className="lead">Here are some of my works.</p>
+                    As you can see, I mostly do text art. Though Digital Painting and Photography are also my hobbies. Without forgetting Postering, Video Editing, Logo Design...<br/>Please visit my socials down below if you want to see more.
+                  </div>
                   <div className="row">
                     <div className="col-lg-4">
                       <div className="card overlay border">
@@ -222,35 +228,35 @@ function App() {
       {/* Socials */}
       <div className="container d-flex flex-column flex-md-row align-items-center justify-content-between">
         <div className="text-dark order-2 order-md-1">
-          <span className="text-muted fw-bold me-1 text-hover-primary">Antsamotady</span>
-          <span className="text-gray-800">2022</span>
+          <span className="text-muted fw-bold me-1 text-hover-primary">Antsamotady&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span className="text-gray-800"><img alt="Keenthemes Youtube" src={ mail_logo } className="h-20px" />&nbsp;&nbsp;&nbsp;&nbsp;hasin.tsilavina@gmail.com</span>
         </div>
         <ul className="menu menu-gray-600 menu-hover-primary fw-bold order-1 align-items-center mb-3 mb-md-0">
           <li className="menu-item">
-            <a href="https://www.youtube.com/c/KeenThemesTuts/videos" target="_blank" className="menu-link px-3">
+            <a href="https://web.facebook.com/media/set/?set=a.3321396001522010&type=3" target="_blank" className="menu-link px-3">
+              <img alt="Keenthemes Facebook" src={ fb } className="h-20px" />
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="https://stackoverflow.com/users/9532910/antsamotady" target="_blank" className="menu-link px-3">
+              <img alt="Keenthemes Facebook" src={ stack } className="h-20px" />
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="#" className="menu-link px-3">
               <img alt="Keenthemes Youtube" src={ youtube } className="h-20px" />
             </a>
           </li>
           <li className="menu-item">
-            <a href="https://github.com/KeenthemesHub" target="_blank" className="menu-link px-3">
+            <a href="#" className="menu-link px-3">
               <img alt="Keenthemes Github" src={ github } className="h-20px" />
             </a>
           </li>
           <li className="menu-item">
-            <a href="https://www.instagram.com/keenthemes" target="_blank" className="menu-link px-3">
+            <a href="#" className="menu-link px-3">
               <img alt="Keenthemes Instagram" src={ insta } className="h-20px" />
             </a>
           </li>
-          <li className="menu-item">
-            <a href="https://www.facebook.com/keenthemes" target="_blank" className="menu-link px-3">
-              <img alt="Keenthemes Facebook" src={ fb } className="h-20px" />
-            </a>
-          </li>
-          {/* <li className="menu-item">
-            <a href="https://www.youtube.com/c/KeenThemesTuts/videos" target="_blank" className="menu-link px-3">
-              <img alt="Keenthemes Youtube" src={ google_icon } className="h-20px" />
-            </a>
-          </li> */}
         </ul>
       </div>
 
