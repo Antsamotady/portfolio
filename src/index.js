@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import 'bootstrap/plugins/global/plugins.bundle.css';
-import 'bootstrap/css/style.bundle.css';
+import './bootstrap/plugins/global/plugins.bundle.css';
+import './bootstrap/css/style.bundle.css';
 // import 'bootstrap/plugins/global/plugins.bundle.js';
 
 

@@ -1,4 +1,3 @@
-import myown_bg from './public/DSC_0368_croped.JPG';
 import Neh_9_20 from './public/Neh_9_20.jpg';
 import myself from './public/IMG_20200418_172346.jpg';
 import Sal_122 from './public/Sal_122.7.png';
@@ -15,24 +14,10 @@ import cover from './public/cover.png';
 import Dan_12_3 from './public/Dan_12_3.jpg';
 import postal_card from './public/DSC_0273.JPG';
 
-import errora from 'bootstrap/media/illustrations/sketchy-1/18.png';
-import skt from 'bootstrap/media/illustrations/sketchy-1/1.png';
-
-import img_11 from 'bootstrap/media/stock/600x600/img-11.jpg';
-import img_12 from 'bootstrap/media/stock/600x600/img-12.jpg';
-import img_20 from 'bootstrap/media/stock/600x600/img-20.jpg';
-import img_21 from 'bootstrap/media/stock/600x600/img-21.jpg';
-import img_22 from 'bootstrap/media/stock/600x600/img-22.jpg';
-import img_23 from 'bootstrap/media/stock/600x600/img-23.jpg';
-
-import google_icon from 'bootstrap/media/svg/brand-logos/google-icon.svg';
-import facebook_4 from 'bootstrap/media/svg/brand-logos/facebook-4.svg';
-import apple_black from 'bootstrap/media/svg/brand-logos/apple-black.svg';
-
-import youtube from 'bootstrap/media/svg/social-logos/youtube.svg';
-import github from 'bootstrap/media/svg/social-logos/github.svg';
-import insta from 'bootstrap/media/svg/social-logos/instagram.svg';
-import fb from 'bootstrap/media/svg/social-logos/facebook.svg';
+import youtube from './bootstrap/media/svg/social-logos/youtube.svg';
+import github from './bootstrap/media/svg/social-logos/github.svg';
+import insta from './bootstrap/media/svg/social-logos/instagram.svg';
+import fb from './bootstrap/media/svg/social-logos/facebook.svg';
 import stack from './logo-stackoverflow-svgrepo-com.svg';
 import mail_logo from './gmail-svgrepo-com.svg';
 
