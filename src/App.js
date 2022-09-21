@@ -1,3 +1,4 @@
+import Ld from './public/Ld.JPG';
 import Neh_9_20 from './public/Neh_9_20.jpg';
 import myself from './public/IMG_20200418_172346.jpg';
 import Sal_122 from './public/Sal_122.7.png';
@@ -43,6 +44,16 @@ function App() {
                     As you can see, I mostly do text art, though Digital Painting and Photography are also my hobbies. Without forgetting Postering, Video Editing, Logo Design.<br/>Please visit my socials down below if you want to see more.
                   </div>
                   <div className="row">
+                    <div className="col-lg-4">
+                      <div className="card overlay border">
+                        <div className="card-body p-0">
+                          <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Ld })` }}></div>
+                          <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
+                            <code className="py-2 px-4">Ms. Lydia</code>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div className="col-lg-4">
                       <div className="card overlay border">
                         <div className="card-body p-0">
