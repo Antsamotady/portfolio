@@ -26,10 +26,10 @@ function App() {
     // <div className="App bg-dark" style={{ backgroundImage: `url(${ myown_bg })` }}>
     <div className="App bg-light">
       <div className="text-center">
-        <div className="fw-bold fs-3 text-white mb-5">.</div>
-        <h1 className="fs-2hx fw-bolder mb-5">
-          <p className="display-1 text-hover-primary">Hasintsilavina</p><span className="text-white"> here!</span></h1>
-          <div className="fw-bold fs-3 text-muted mb-15">Graphic Designer & Web developper</div>
+        <div className="fw-bold fs-3 text-white mb-2">.</div>
+        <h1 className="fs-2hx fw-bolder">
+          <p className="display-1 text-hover-primary">Hasintsilavina</p><span className="text-white">&nbsp;here!</span></h1>
+          <div className="fw-bold fs-3 text-muted mb-10">Graphic Designer & Web developper</div>
       </div>
 
       <div className="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed mb-10">
@@ -40,7 +40,7 @@ function App() {
                 <div className="tab-pane fade show active" id="kt_illustration_sketchy-1">
                   <div className="mb-10">
                     <p className="lead">Here are some of my works.</p>
-                    As you can see, I mostly do text art. Though Digital Painting and Photography are also my hobbies. Without forgetting Postering, Video Editing, Logo Design...<br/>Please visit my socials down below if you want to see more.
+                    As you can see, I mostly do text art, though Digital Painting and Photography are also my hobbies. Without forgetting Postering, Video Editing, Logo Design...<br/>Please visit my socials down below if you want to see more.
                   </div>
                   <div className="row">
                     <div className="col-lg-4">
