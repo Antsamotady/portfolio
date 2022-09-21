@@ -40,7 +40,7 @@ function App() {
                 <div className="tab-pane fade show active" id="kt_illustration_sketchy-1">
                   <div className="mb-10">
                     <p className="lead">Here are some of my works.</p>
-                    As you can see, I mostly do text art, though Digital Painting and Photography are also my hobbies. Without forgetting Postering, Video Editing, Logo Design...<br/>Please visit my socials down below if you want to see more.
+                    As you can see, I mostly do text art, though Digital Painting and Photography are also my hobbies. Without forgetting Postering, Video Editing, Logo Design.<br/>Please visit my socials down below if you want to see more.
                   </div>
                   <div className="row">
                     <div className="col-lg-4">
