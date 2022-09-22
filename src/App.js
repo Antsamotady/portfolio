@@ -27,9 +27,9 @@ function App() {
     // <div className="App bg-dark" style={{ backgroundImage: `url(${ myown_bg })` }}>
     <div className="App bg-light">
       <div className="text-center">
-        <div className="fw-bold fs-3 text-white mb-2">.</div>
+        <div className="fw-bold fs-3 text-white mb-2"><i class="las la-tint fs-2x"></i></div>
         <h1 className="fs-2hx fw-bolder">
-          <p className="display-1 text-hover-primary">Hasintsilavina</p><span className="text-white">&nbsp;here!</span></h1>
+          <p className="display-1 text-hover-primary ls-5">Hasintsilavina</p><span className="text-white">&nbsp;here!</span></h1>
           <div className="fw-bold fs-3 text-muted mb-10">Graphic Designer & Web developper</div>
       </div>
 
@@ -49,7 +49,7 @@ function App() {
                         <div className="card-body p-0">
                           <div className="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style={{ backgroundImage: `url(${ Ld })` }}></div>
                           <div className="overlay-layer card-rounded bg-dark bg-opacity-10 align-items-end pb-3">
-                            <code className="py-2 px-4">Ms. Lydia</code>
+                            <code className="py-2 px-4">the beautiful Ms. Lydia</code>
                           </div>
                         </div>
                       </div>
