@@ -251,8 +251,8 @@ render() {
         <div className="container" style={{ display: this.state.isOpen ? 'none' : 'block' }}>
           <div className="container d-flex flex-column flex-md-row align-items-center justify-content-between">
             <div className="text-dark order-2 order-md-1">
-              <span className="text-muted fw-bold me-1 text-hover-primary">Antsamotady&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span className="text-gray-800"><img alt="Keenthemes Youtube" src={ mail_logo } className="h-20px" />&nbsp;&nbsp;&nbsp;&nbsp;hasin.tsilavina@gmail.com</span>
+              <span className="text-muted fw-bold me-1"><a href="mailto:rajaonarison.hasintsilavina@gmail.com?subject=Reaching20%Out&body=How%20are%20you">Antsamotady</a></span>
+              {/* <span className="text-gray-800"><img alt="Keenthemes Youtube" src={ mail_logo } className="h-20px" />&nbsp;&nbsp;&nbsp;&nbsp;hasin.tsilavina@gmail.com</span> */}
             </div>
             <ul className="menu menu-gray-600 menu-hover-primary fw-bold order-1 align-items-center mb-3 mb-md-0">
               <li className="menu-item">
