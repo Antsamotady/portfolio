@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 
 import './bootstrap/plugins/global/plugins.bundle.css';
 import './bootstrap/css/style.bundle.css';
-// import 'bootstrap/plugins/global/plugins.bundle.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
