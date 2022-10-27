@@ -14,6 +14,12 @@ class App extends Component {
   handleAddTodo = event => {
     const name = this.todoNameRef.current.value;
     if(name === '') return
+
+    const todos = [...this.state.todos];
+    todos.push({id:1, name:name, complete:false});
+
+    this.setState({todos});
+
     this.todoNameRef.current.value = null;
   }
 
