@@ -22,7 +22,6 @@ import github from './bootstrap/media/svg/social-logos/github.svg';
 import insta from './bootstrap/media/svg/social-logos/instagram.svg';
 import fb from './bootstrap/media/svg/social-logos/facebook.svg';
 import stack from './logo-stackoverflow-svgrepo-com.svg';
-import mail_logo from './gmail-svgrepo-com.svg';
 
 
 class App extends Component {
