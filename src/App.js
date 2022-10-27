@@ -58,7 +58,7 @@ render() {
               </div>
         )}
 
-        <div className="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed mb-10">
+        <div className="d-flex flex-column-fluid bgi-position-y-bottom bgi-no-repeat bgi-size-contain bgi-attachment-fixed mb-10">
           <div className="container" style={{ display: this.state.isOpen ? 'none' : 'block' }}>
             <div className="card card-docs mb-2">
               <div className="card-body fs-6 py-15 px-10 py-lg-15 px-lg-15 text-gray-700">
@@ -239,7 +239,7 @@ render() {
 
         {/* Contact */}
         <div className="d-flex flex-center flex-column-auto p-10">
-          thtT Neny!
+          Thank God.
           {/* <div className="d-flex align-items-center fw-bold fs-6">
             <a href="https://keenthemes.com" className="text-muted text-hover-primary px-2">About</a>
             <a href="mailto:support@keenthemes.com" className="text-muted text-hover-primary px-2">Contact</a>
