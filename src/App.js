@@ -2,11 +2,19 @@ import React, { Component } from 'react';
 import TodoList from './Component/TodoList';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.todoNameRef = React.createRef();
+  }
+
   state = {
-    todos: [
-      { id: 1, name: 'stuff 1', complete: false},
-      { id: 2, name: 'stuff 2', complete: true}
-    ]
+    todos: []
+  }
+
+  handleAddTodo = event => {
+    const name = this.todoNameRef.current.value;
+    if(name === '') return
+    this.todoNameRef.current.value = null;
   }
 
   render() {
@@ -17,8 +25,8 @@ class App extends Component {
           <TodoList todos={this.state.todos}/>
           
           <div className="mb-2 d-flex input-and-button">
-            <input className='form-control' type="text" />
-            <button type='button' className="btn btn-primary">++</button>
+            <input className='form-control' type="text" ref={this.todoNameRef}/>
+            <button type='button' className="btn btn-primary" onClick={this.handleAddTodo}>++</button>
             <button type='button' className="btn btn-secondary">Clear complete</button>
           </div>
         </div>
