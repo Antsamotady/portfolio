@@ -3,9 +3,18 @@
     CSS reset
     =========================
 */
-
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.main {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid #d9d7d7;
+  border-radius: 5px;
+}
+.input-and-button {
+  border: 1px dotted #e6e6e6;
 }
