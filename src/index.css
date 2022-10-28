@@ -15,6 +15,26 @@ body {
   border: 2px solid #d9d7d7;
   border-radius: 5px;
 }
+
 .input-and-button {
   border: 1px dotted #e6e6e6;
+}
+
+.remain {
+  margin-bottom: 2px;
+}
+
+.badge {
+  margin: 10px 10px;
+  color: rgb(246, 249, 252);
+  border-radius: .2em;
+  background-color: #6391a2;
+}
+
+.badge-zero {
+  background-color: #e6c448;
+}
+
+.badge-qlqc {
+  background-color: #4ff8f5;
 }

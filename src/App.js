@@ -36,6 +36,7 @@ class App extends Component {
             <button type='button' className="btn btn-primary" onClick={this.handleAddTodo}>++</button>
             <button type='button' className="btn btn-secondary">Clear complete</button>
           </div>
+          <p className='text-center remain'>Remaining todos: <span className='badge'>0</span></p>
         </div>
       </div>
     );
