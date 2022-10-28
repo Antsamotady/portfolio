@@ -10,7 +10,11 @@ function App() {
 
   useEffect(() => {
     const storedTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_NAKA));
-    if(storedTodos.length) setTodos(storedTodos);
+    try {
+      if(storedTodos.length) setTodos(storedTodos);
+    } catch (e) {
+      console.log('Oh!');
+    }
   }, []);
 
   useEffect(() => {
