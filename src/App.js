@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TodoList from './Component/TodoList';
+import {v4 as uuidv4} from 'uuid';
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +17,7 @@ class App extends Component {
     if(name === '') return
 
     const todos = [...this.state.todos];
-    todos.push({id:1, name:name, complete:false});
+    todos.push({id:uuidv4(), name:name, complete:false});
 
     this.setState({todos});
 
