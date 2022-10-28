@@ -1,11 +1,21 @@
-import React, { Component, useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import TodoList from './Component/TodoList';
 import {v4 as uuidv4} from 'uuid';
-import { useRef } from 'react';
+
+const LOCAL_STORAGE_NAKA = 'some.key';
 
 function App() {
   const [todos, setTodos] = useState([]);
   const todoNameRef = useRef();
+
+  useEffect(() => {
+    const storedTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_NAKA));
+    if(storedTodos.length) setTodos(storedTodos);
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem(LOCAL_STORAGE_NAKA, JSON.stringify(todos));
+  }, [todos]);
 
   function handleAddTodo() {
     const name = todoNameRef.current.value;
