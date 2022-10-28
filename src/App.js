@@ -27,21 +27,38 @@ function App() {
     todoNameRef.current.value = null;
   } 
 
+  function toggleTodo(id) {
+    const newTodos = [...todos];
+    const todo = newTodos.find(todo => todo.id === id);
+    todo.complete = !todo.complete;
+
+    setTodos(newTodos);
+  }
+
   return (
     <div>
       <p className='fs-1 text-center'>TODO</p>
       <div className='main'>
-        <TodoList todos={todos}/>
+        <TodoList todos={todos} onToggleTodo={toggleTodo}/>
         
         <div className="mb-2 d-flex input-and-button">
           <input className='form-control' type="text" ref={todoNameRef}/>
           <button type='button' className="btn btn-primary" onClick={handleAddTodo}>++</button>
           <button type='button' className="btn btn-secondary">Clear complete</button>
         </div>
-        <p className='text-center remain'>Remaining todos: <span className='badge'>0</span></p>
+        <p className={showHideTag()}>Remaining todos: 
+          <span className='badge'>{todos.filter(todo => !todo.complete).length}
+          </span>
+        </p>
       </div>
     </div>
   );
+
+  function showHideTag() {
+    if(todos.filter(todo => !todo.complete).length) 
+      return 'text-center remain';
+    return 'd-none';
+  }
 }
 
 export default App;
