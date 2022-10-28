@@ -35,6 +35,12 @@ function App() {
     setTodos(newTodos);
   }
 
+  function handleClearTodos() {
+    const newTodos = todos.filter(todo => !todo.complete);
+    
+    setTodos(newTodos);
+  }
+
   return (
     <div>
       <p className='fs-1 text-center'>TODO</p>
@@ -44,7 +50,7 @@ function App() {
         <div className="mb-2 d-flex input-and-button">
           <input className='form-control' type="text" ref={todoNameRef}/>
           <button type='button' className="btn btn-primary" onClick={handleAddTodo}>++</button>
-          <button type='button' className="btn btn-secondary">Clear complete</button>
+          <button type='button' className="btn btn-secondary" onClick={handleClearTodos}>Clear complete</button>
         </div>
         <p className={showHideTag()}>Remaining todos: 
           <span className='badge'>{todos.filter(todo => !todo.complete).length}
