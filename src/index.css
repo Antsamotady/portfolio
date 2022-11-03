@@ -35,12 +35,12 @@ body {
 }
 .tsl-footer {
   position: absolute;
-  bottom: 0.8vh;
-  left: 45%;
+  bottom: 2rem;
+  left: 38%;
    
-  zoom: 0.5; 
+  zoom: 0.4;
   /* For Firefox */
-  -moz-transform: scale(0.5); 
+  -moz-transform: scale(0.4); 
   -moz-transform-origin: 0 0;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .wrapper {
-  padding: 0 1.2vw;
+  padding: 0 8vw;
 }
 
 .state {

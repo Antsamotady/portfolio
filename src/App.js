@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ top: 0, left: 0 , str: 'radial-gradient(circle at 100% 100%, #3498db, #fff)'});
+
   const onMyMouseMove = e => {
       setCursorPosition({ 
         left: Math.round(e.screenX/window.innerWidth * 100),
@@ -15,8 +16,8 @@ function App() {
       // console.log(cursorPosition.str);
   }
   
-  function handleButtonclick() {
-    console.log('hmm');
+  const handleButtonclick = e => {
+    console.log(e.target.value);
   }
 
   return (
@@ -40,26 +41,26 @@ function App() {
         <footer className='tsl-footer'>
           <div className="radiogroup">
             <div className="wrapper">
-              <input className="state" type="radio" name="app" id="a" value="a"/>
+              <input className="state" type="radio" name="appa" id="a0" value="a0" onClick={handleButtonclick}/>
+              <label className="label" htmlFor="a0">
+                <div className="indicator"></div>
+              </label>
+            </div>
+            <div className="wrapper">
+              <input className="state" type="radio" name="appa" id="a" value="a" onClick={handleButtonclick}/>
               <label className="label" htmlFor="a">
                 <div className="indicator"></div>
               </label>
             </div>
             <div className="wrapper">
-              <input className="state" type="radio" name="app" id="b" value="b" onClick={handleButtonclick}/>
+            <input className="state" type="radio" name="appa" id="b" value="b" onClick={handleButtonclick}/>
               <label className="label" htmlFor="b">
                 <div className="indicator"></div>
               </label>
             </div>
             <div className="wrapper">
-              <input className="state" type="radio" name="app" id="c" value="c"/>
+            <input className="state" type="radio" name="appa" id="c" value="c" onClick={handleButtonclick}/>
               <label className="label" htmlFor="c">
-                <div className="indicator"></div>
-              </label>
-            </div>
-            <div className="wrapper">
-              <input className="state" type="radio" name="app" id="d" value="d"/>
-              <label className="label" htmlFor="d">
                 <div className="indicator"></div>
               </label>
             </div>
