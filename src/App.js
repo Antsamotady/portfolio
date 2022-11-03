@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 function App() {
+  const [color1, setColor1] = useState('#3498db')
   const [cursorPosition, setCursorPosition] = useState({ top: 0, left: 0 , str: 'radial-gradient(circle at 100% 100%, #3498db, #fff)'});
 
   const onMyMouseMove = e => {
@@ -11,13 +12,19 @@ function App() {
           Math.round(e.screenX/window.innerWidth * 100) + 
           "% " +
           Math.round(e.screenY/window.innerHeight * 100) + 
-          "% , #3498db, #fff)"
+          "% ,"+ color1 +", #fff)"
       });
       // console.log(cursorPosition.str);
   }
   
   const handleButtonclick = e => {
     console.log(e.target.value);
+    if(e.target.value === 'a0') setColor1('#ff0000');
+    if(e.target.value === 'a') setColor1('#00ff00');
+    if(e.target.value === 'b') setColor1('#0000ff');
+    if(e.target.value === 'c') setColor1('#1e1e1e');
+    if(e.target.value === 'd') setColor1('#fff');
+
   }
 
   return (
