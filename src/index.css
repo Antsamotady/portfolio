@@ -30,3 +30,7 @@ body {
   border-radius: .2em;
   background-color: #6391a2;
 }
+
+.clear-complete {
+  flex: 0 0 auto;
+}

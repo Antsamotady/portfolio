@@ -54,7 +54,7 @@ function App() {
         <div className="mb-2 d-flex input-and-button">
           <input className='form-control' type="text" ref={todoNameRef}/>
           <button type='button' className="btn btn-primary" onClick={handleAddTodo}>++</button>
-          <button type='button' className="btn btn-secondary" onClick={handleClearTodos}>Clear complete</button>
+          <button type='button' className="btn btn-secondary clear-complete" onClick={handleClearTodos}>Clear complete</button>
         </div>
         <p className={showHideTag()}>Remaining todos: 
           <span className='badge'>{todos.filter(todo => !todo.complete).length}
