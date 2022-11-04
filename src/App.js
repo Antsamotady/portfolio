@@ -70,14 +70,14 @@ function App() {
       msgId = 3;
       msgHead = 'Have a look at my';
       msgBody = 'Digital Painting';
-      msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
+      msgFoot = 'Here are some made with Photoshop';
     }
     if(e.target.value === 'c') {
       color2 = '#1e1e1e';
       msgId = 4;
       msgHead = 'Look at';
       msgBody = 'Text art';
-      msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
+      msgFoot = 'I love playing with text';
     }
     if(e.target.value === 'd') {
       color2 = '#fff';
@@ -122,7 +122,6 @@ function App() {
           <div className="txt txt-foot">{msg.foot}</div>
 
           <div className="tsl-carousel" style={{ display: msg.id===2 ? 'block' : 'none' }}>
-
             <Carousel activeIndex={index} onSelect={handleSelect}>
               <Carousel.Item>
                 <img
@@ -153,7 +152,72 @@ function App() {
                 />
               </Carousel.Item>
             </Carousel>
+          </div>
 
+          <div className="tsl-carousel-2" style={{ display: msg.id===3 ? 'block' : 'none' }}>
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Mn}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Dm}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Bd}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </div>
+
+          <div className="tsl-carousel-3" style={{ display: msg.id===4 ? 'block' : 'none' }}>
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Ephes_6}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={cover}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Lio_15_18a}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Sal_122}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Neh_9_20}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+            </Carousel>
           </div>
 
 

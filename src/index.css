@@ -61,6 +61,8 @@ body {
 }
 .txt {
   text-align: right;
+
+  z-index: 2;
 }
 
 .txt-head {
@@ -185,9 +187,25 @@ body {
   opacity: 1;
 }
 
+
+
 .tsl-carousel {
   width: 35vh;
   position: absolute;
   top: -6rem;
   left: -85%;
+}
+
+.tsl-carousel-2 {
+  width: 30vh;
+  position: absolute;
+  top: -6rem;
+  left: -61%;
+}
+
+.tsl-carousel-3 {
+  width: 75vh;
+  position: absolute;
+  top: -8rem;
+  left: -202%;
 }
