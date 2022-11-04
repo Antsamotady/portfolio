@@ -46,7 +46,7 @@ render() {
         <div className="text-center">
           <div className="fw-bold fs-3 text-white mb-2"><i className="las la-tint fs-2x"></i></div>
           <h1 className="fs-2hx fw-bolder">
-            <p className="display-1 text-hover-primary ls-5">Hasintsilavina</p><span className="text-white">&nbsp;here!</span></h1>
+            <p className="display-1 text-hover-primary ls-5">Garry</p><span className="text-white">&nbsp;here!</span></h1>
             <div className="fw-bold fs-3 text-muted mb-10">Graphic Designer & Web developper</div>
         </div>
 
