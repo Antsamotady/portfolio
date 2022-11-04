@@ -10,7 +10,7 @@ function App() {
     background: 'radial-gradient(circle at 100% 100%, #fff, #fff)'
   });
   const [msg, setMsg] = useState({
-    head: 'Welcome dear visitor!',
+    head: 'Dear visitor',
     body: 'Experience design',
     foot: 'Recently I’ve been interested in web design so I started learning Reactjs. It would be really interesting for me if I make a job of it. I feel the potential it has.'
   })
