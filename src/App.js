@@ -78,7 +78,8 @@ function App() {
           <div className="logo" onClick={() => window.location.reload(false)}></div>
           <div className="right-menu">
             <a className="menu-link" href='#' onClick={() => window.location.reload(false)}>About</a>
-            <a className="menu-link" href='https://tsl-react-css-flex.netlify.app/'>Other</a>
+            <a className="menu-link" href='https://test-tsl-portfolio.netlify.app'>Other</a>
+            <a className="menu-link" href="mailto:rajaonarison.hasintsilavina@gmail.com?subject=Reaching20%Out&body=How%20are%20you">Contact</a>
           </div>
         </nav>
         
