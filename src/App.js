@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 
 function App() {
-  const [color1, setColor1] = useState('#fff')
+  const [color1, setColor1] = useState('#fff');
+  const [position, setPosition] = useState({
+    posX: 100,
+    posY: 100
+  })
   const [myStyle, setMyStyle] = useState({
     background: 'radial-gradient(circle at 100% 100%, #fff, #fff)'
   });
@@ -12,24 +16,29 @@ function App() {
   })
 
   const onMyMouseMove = e => {
-    console.log('mouse move...');
+    setPosition({
+      posX: Math.round(e.screenX/window.innerWidth * 100),
+      posY: Math.round(e.screenY/window.innerHeight * 100)
+    });
+
+    setMyStyle({
+      background: "radial-gradient(circle at " + position.posX + "% " + position.posY + "% ,"+ color1 +", #fff)"
+    });
   }
   
   const handleButtonclick = e => {
-    if(e.target.value === 'a0') setColor1('#ff0000');
-    if(e.target.value === 'a') setColor1('#00ff00');
-    if(e.target.value === 'b') setColor1('#0000ff');
-    if(e.target.value === 'c') setColor1('#1e1e1e');
-    if(e.target.value === 'd') setColor1('#fff');
+    let color2 = '#fff';
+    if(e.target.value === 'a0') color2 = '#ff0000';
+    if(e.target.value === 'a') color2 = '#00ff00';
+    if(e.target.value === 'b') color2 = '#0000ff';
+    if(e.target.value === 'c') color2 = '#1e1e1e';
+    if(e.target.value === 'd') color2 = '#fff';
 
     setMyStyle({
-      background: "radial-gradient(circle at " + 
-        Math.round(e.screenX/window.innerWidth * 100) + 
-        "% " +
-        Math.round(e.screenY/window.innerHeight * 100) + 
-        "% ,"+ color1 +", #fff)"
+      background: "radial-gradient(circle at " + position.posX + "% " + position.posY + "% ,"+ color2 +", #fff)"
     });
-    console.log(myStyle.background);
+
+    setColor1(color2);
   }
 
   return (
