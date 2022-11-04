@@ -2,36 +2,30 @@ import React, { useState } from 'react';
 
 function App() {
   const [color1, setColor1] = useState('#3498db')
-  const [cursorPosition, setCursorPosition] = useState({ top: 0, left: 0 , str: 'radial-gradient(circle at 100% 100%, #3498db, #fff)'});
+  const [myStyle, setMyStyle] = useState({
+    background: 'radial-gradient(circle at 100% 100%, #f0e876, #fff)'
+  });
 
   const onMyMouseMove = e => {
-      setCursorPosition({ 
-        left: Math.round(e.screenX/window.innerWidth * 100),
-        top: Math.round(e.screenY/window.innerHeight * 100), 
-        str: "radial-gradient(circle at " + 
+    setMyStyle({
+        background: "radial-gradient(circle at " + 
           Math.round(e.screenX/window.innerWidth * 100) + 
           "% " +
           Math.round(e.screenY/window.innerHeight * 100) + 
           "% ,"+ color1 +", #fff)"
       });
-      // console.log(cursorPosition.str);
   }
   
   const handleButtonclick = e => {
-    console.log(e.target.value);
     if(e.target.value === 'a0') setColor1('#ff0000');
     if(e.target.value === 'a') setColor1('#00ff00');
     if(e.target.value === 'b') setColor1('#0000ff');
     if(e.target.value === 'c') setColor1('#1e1e1e');
     if(e.target.value === 'd') setColor1('#fff');
-
   }
 
   return (
-    <div className="tsl-main-container" onMouseMove={onMyMouseMove} style={{
-        background: `${cursorPosition.str}`
-      }}>
-      {/* top: {cursorPosition.top}%, left: {cursorPosition.left}% */}
+    <div className="tsl-main-container" onMouseMove={onMyMouseMove} style={myStyle}>
       <div className="tsl-container">
         <nav className="tsl-nav">
           <div className="logo">Antsamotady</div>
