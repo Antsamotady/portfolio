@@ -19,6 +19,36 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.logo {
+  width: 50px;
+  height: 50px;
+
+  background-color: #d1d9e6;
+  background-image: url(./public/Tsifoh_sm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #6a0138;
+}
+
+.menu-link {
+  padding-left: 1rem;
+  color: black;
+}
+
+.menu-link:hover {
+  padding-left: 1rem;
+  
+  color: black;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, #33001b, #ff0084);
+  border-image-slice: 1;
+}
+
 .tsl-middle {
   position: absolute;
   right: 4rem;
