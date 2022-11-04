@@ -21,11 +21,26 @@ body {
 }
 .tsl-middle {
   position: absolute;
-  left: 35%;
+  right: 4rem;
   top: 35%;
 
   font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10vw;
+
+  display: flex;
+  flex-direction: column;
+}
+.txt {
+  text-align: right;
+}
+
+.txt-head {
+  font-size: calc(1rem + 2vw);;
+  font-weight: 300;
+  margin-bottom: 0.1rem;
+}
+
+.txt-body {
+  font-size: calc(2rem + 4vw);
   font-weight: 400;
 
   background: linear-gradient(to right, #33001b, #ff0084);
@@ -33,6 +48,12 @@ body {
   color: transparent;
   width: auto;
 }
+
+.txt-foot {
+  margin-top: -0.8rem;
+}
+
+
 .tsl-footer {
   position: absolute;
   bottom: 2rem;

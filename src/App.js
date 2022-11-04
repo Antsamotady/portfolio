@@ -28,17 +28,47 @@ function App() {
   
   const handleButtonclick = e => {
     let color2 = '#fff';
-    if(e.target.value === 'a0') color2 = '#ff0000';
-    if(e.target.value === 'a') color2 = '#00ff00';
-    if(e.target.value === 'b') color2 = '#0000ff';
-    if(e.target.value === 'c') color2 = '#1e1e1e';
-    if(e.target.value === 'd') color2 = '#fff';
+    let msgHead; let msgBody; let msgFoot;
+    msgHead = msgBody = msgFoot = '';
+    if(e.target.value === 'a0') {
+      color2 = '#ff0000';
+      msgHead = 'text0';
+      msgBody = 'lorem ipsum';
+      msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
+    }
+    if(e.target.value === 'a') {
+      color2 = '#00ff00';
+      msgHead = 'text a';
+      msgBody = 'lorem ipsum a';
+      msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
+    }
+    if(e.target.value === 'b') {
+      color2 = '#0000ff';
+      msgHead = 'text b';
+      msgBody = 'lorem ipsum b';
+      msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
+    }
+    if(e.target.value === 'c') {
+      color2 = '#1e1e1e';
+      msgHead = 'text c';
+      msgBody = 'lorem ipsum c';
+      msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
+    }
+    if(e.target.value === 'd') {
+      color2 = '#fff';
+      msgHead = 'text d';
+      msgBody = 'lorem ipsum d';
+      msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
+    }
 
     setMyStyle({
       background: "radial-gradient(circle at " + position.posX + "% " + position.posY + "% ,"+ color2 +", #fff)"
     });
 
     setColor1(color2);
+
+    setMsg({head:msgHead, body:msgBody, foot:msgFoot })
+
   }
 
   return (
@@ -57,7 +87,9 @@ function App() {
         </nav>
         
         <div className="tsl-middle">
-          <div className="txt">Other text</div>for my Ly
+          <div className="txt txt-head">{msg.head}</div>
+          <div className="txt txt-body">{msg.body}</div>
+          <div className="txt txt-foot">{msg.foot}</div>
         </div>
         
         <footer className='tsl-footer'>
