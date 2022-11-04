@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
 
 function App() {
-  const [color1, setColor1] = useState('#3498db')
+  const [color1, setColor1] = useState('#fff')
   const [myStyle, setMyStyle] = useState({
-    background: 'radial-gradient(circle at 100% 100%, #f0e876, #fff)'
+    background: 'radial-gradient(circle at 100% 100%, #fff, #fff)'
   });
+  const [msg, setMsg] = useState({
+    head: 'The head',
+    body: 'The body',
+    foot: 'The foot'
+  })
 
   const onMyMouseMove = e => {
-    setMyStyle({
-        background: "radial-gradient(circle at " + 
-          Math.round(e.screenX/window.innerWidth * 100) + 
-          "% " +
-          Math.round(e.screenY/window.innerHeight * 100) + 
-          "% ,"+ color1 +", #fff)"
-      });
+    console.log('mouse move...');
   }
   
   const handleButtonclick = e => {
@@ -22,6 +21,15 @@ function App() {
     if(e.target.value === 'b') setColor1('#0000ff');
     if(e.target.value === 'c') setColor1('#1e1e1e');
     if(e.target.value === 'd') setColor1('#fff');
+
+    setMyStyle({
+      background: "radial-gradient(circle at " + 
+        Math.round(e.screenX/window.innerWidth * 100) + 
+        "% " +
+        Math.round(e.screenY/window.innerHeight * 100) + 
+        "% ,"+ color1 +", #fff)"
+    });
+    console.log(myStyle.background);
   }
 
   return (
@@ -38,7 +46,11 @@ function App() {
 						</span></a>
           </div>
         </nav>
-        <div className="tsl-middle">for my Ly</div>
+        
+        <div className="tsl-middle">
+          <div className="txt">Other text</div>for my Ly
+        </div>
+        
         <footer className='tsl-footer'>
           <div className="radiogroup">
             <div className="wrapper">
