@@ -37,7 +37,7 @@ function App() {
       msgFoot = 'I am a web developer actually oriented to graphic design. Freelance web designer, please send me an email if you are interested in my work.';
     }
     if(e.target.value === 'a') {
-      color2 = '#00ff00';
+      color2 = 'rgb(36, 69, 36)';
       msgHead = 'Know me more through';
       msgBody = 'Photography';
       msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
