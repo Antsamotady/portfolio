@@ -185,3 +185,9 @@ body {
   opacity: 1;
 }
 
+.tsl-carousel {
+  width: 35vh;
+  position: absolute;
+  top: -6rem;
+  left: -85%;
+}

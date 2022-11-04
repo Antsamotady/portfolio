@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import $ from 'jquery';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from 'react-bootstrap/Carousel'
 
 import Ly from './public/Ld.JPG';
 import Neh_9_20 from './public/Neh_9_20.jpg';
@@ -13,6 +15,7 @@ import swim from './public/vlcsnap-2021-05-08-07h09m42s163.png';
 import Bd from './public/Bd.png';
 import Lio_15_18a from './public/Lio_15_18a.png';
 import kiki from './public/DSC_0344.JPG';
+import sea from './public/splash_cropped.png';
 import II_Tim_4 from './public/II_Tim_4.5.png';
 import cover from './public/cover.png';
 import Dan_12_3 from './public/Dan_12_3.jpg';
@@ -94,6 +97,13 @@ function App() {
 
   }
 
+
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
   return (
     <div className="tsl-main-container" onMouseMove={onMyMouseMove} style={myStyle}>
       <div className="tsl-container">
@@ -111,29 +121,38 @@ function App() {
           <div className="txt txt-body">{msg.body}</div>
           <div className="txt txt-foot">{msg.foot}</div>
 
-          <div className="container" style={{ display: msg.id===2 ? 'block' : 'none' }}>
+          <div className="tsl-carousel" style={{ display: msg.id===2 ? 'block' : 'none' }}>
 
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img src={Ly} className="d-block w-100" alt="aaa" />
-                </div>
-                <div className="carousel-item">
-                  <img src={swim} className="d-block w-100" alt="bbb" />
-                </div>
-                <div className="carousel-item">
-                  <img src="..." className="d-block w-100" alt="ccc" />
-                </div>
-              </div>
-              <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-              </button>
-            </div>
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Ly}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={swim}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={saka}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={sea}
+                  alt="Fourth slide"
+                />
+              </Carousel.Item>
+            </Carousel>
 
           </div>
 
