@@ -32,33 +32,33 @@ function App() {
     msgHead = msgBody = msgFoot = '';
     if(e.target.value === 'a0') {
       color2 = '#ff0000';
-      msgHead = 'text0';
-      msgBody = 'lorem ipsum';
-      msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
+      msgHead = 'Hello! I am';
+      msgBody = 'Garry';
+      msgFoot = 'I am a web developer actually oriented to graphic design. Freelance web designer, please send me an email if you are interested in my work.';
     }
     if(e.target.value === 'a') {
       color2 = '#00ff00';
-      msgHead = 'text a';
-      msgBody = 'lorem ipsum a';
+      msgHead = 'Know me more through';
+      msgBody = 'Photography';
       msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
     }
     if(e.target.value === 'b') {
       color2 = '#0000ff';
-      msgHead = 'text b';
-      msgBody = 'lorem ipsum b';
+      msgHead = 'Have a look at my';
+      msgBody = 'Digital Painting';
       msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
     }
     if(e.target.value === 'c') {
       color2 = '#1e1e1e';
-      msgHead = 'text c';
-      msgBody = 'lorem ipsum c';
+      msgHead = 'Look at';
+      msgBody = 'Text art';
       msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
     }
     if(e.target.value === 'd') {
       color2 = '#fff';
-      msgHead = 'text d';
-      msgBody = 'lorem ipsum d';
-      msgFoot = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus nostrum consectetur perferendis vel iure incidunt accusantium molestias a corporis aspernatur facilis voluptas similique, cumque nam dignissimos explicabo omnis voluptates!';
+      msgHead = 'Simple';
+      msgBody = 'Visual design';
+      msgFoot = 'From here I invite you to have a look at my website experiment';
     }
 
     setMyStyle({
@@ -112,6 +112,12 @@ function App() {
             <div className="wrapper">
             <input className="state" type="radio" name="appa" id="c" value="c" onClick={handleButtonclick}/>
               <label className="label" htmlFor="c">
+                <div className="indicator"></div>
+              </label>
+            </div>
+            <div className="wrapper">
+            <input className="state" type="radio" name="appa" id="d" value="d" onClick={handleButtonclick}/>
+              <label className="label" htmlFor="d">
                 <div className="indicator"></div>
               </label>
             </div>
