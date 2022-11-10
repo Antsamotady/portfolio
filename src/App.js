@@ -112,7 +112,7 @@ function App() {
           <div className="right-menu">
             <a className="menu-link" href='#' onClick={() => window.location.reload(false)}>About</a>
             <a className="menu-link" href='https://test-tsl-portfolio.netlify.app'>Other</a>
-            <a className="menu-link" href="mailto:rajaonarison.hasintsilavina@gmail.com?subject=Reaching20%Out&body=How%20are%20you">Contact</a>
+            <a className="menu-link" href="mailto:tsilavinarj02@gmail.com?subject=Interested%20visitor&body=Hi%20Garry!">Contact</a>
           </div>
         </nav>
         
