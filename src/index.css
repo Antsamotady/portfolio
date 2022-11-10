@@ -6,7 +6,7 @@ body {
 }
 
 .tsl-main-container {
-  font-family: "Lato";
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100vh;
 
   /* fallback */
@@ -71,6 +71,15 @@ body {
   margin-bottom: 0.1rem;
 }
 
+@media (max-width:700px) {
+  .txt-head {
+    font-style: normal;
+    border-radius: 0.2em;
+    background: linear-gradient(to right, #33001b, #ff0084);
+    transform: skewX(-10deg);
+  }
+}
+
 .txt-body {
   font-size: calc(2rem + 4vw);
   font-weight: 400;
@@ -81,10 +90,25 @@ body {
   width: auto;
 }
 
+@media (max-width:700px) {
+  .txt-body {
+    text-shadow: 3px 1px #d433ac;
+    filter: drop-shadow(-10px 10px 20px #87d6f4);
+  }
+}
+
+
 .txt-foot {
   margin-top: -0.8rem;
   padding-left: 15vw;
 }
+
+@media (max-width:700px) {
+  .txt-foot {
+    text-shadow: 1px 1px 10px rgb(239, 241, 245), 1px 1px 10px rgb(192, 94, 122);;
+  }
+}
+
 
 
 .tsl-footer {
