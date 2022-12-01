@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
 
 import Ly from './public/Ld.JPG';
+import spider from './public/DSC_0368_croped.JPG';
 import Neh_9_20 from './public/Neh_9_20.jpg';
 import myself from './public/IMG_20200418_172346.jpg';
 import Sal_122 from './public/Sal_122.7.png';
@@ -52,11 +53,11 @@ function App() {
     let msgId; let msgHead; let msgBody; let msgFoot;
     msgHead = msgBody = msgFoot = '';
     if(e.target.value === 'a0') {
-      color2 = '#ff0000';
+      color2 = 'rgb(169, 31, 31)';
       msgId = 1;
       msgHead = 'Hello! I am';
       msgBody = 'Garry';
-      msgFoot = 'I am a web developer actually oriented to graphic design. Freelance web designer, please send me an email if you are interested in my work.';
+      msgFoot = 'I am a web developer actually oriented to graphic design. You can browse the buttons below to know better what I do.';
     }
     if(e.target.value === 'a') {
       color2 = 'rgb(36, 69, 36)';
@@ -76,7 +77,7 @@ function App() {
       color2 = '#1e1e1e';
       msgId = 4;
       msgHead = 'Look at';
-      msgBody = 'Text art';
+      msgBody = 'Typography';
       msgFoot = 'I love playing with text';
     }
     if(e.target.value === 'd') {
@@ -84,7 +85,7 @@ function App() {
       msgId = 5;
       msgHead = 'Simple';
       msgBody = 'Visual design';
-      msgFoot = 'From here I invite you to have a look at my website experiment';
+      msgFoot = 'It\'s all about DESIGN! For a general idea of my interest in this domain, I invite you to have a look at my other website ';
     }
 
     setMyStyle({
@@ -120,13 +121,16 @@ function App() {
           <div className="txt txt-head">{msg.head}</div>
           <div className="txt txt-body">{msg.body}</div>
           <div className="txt txt-foot">{msg.foot}</div>
+          <div className="txt outside-link" style={{ display: msg.id===5 ? 'block' : 'none' }}>
+            <a className="menu-link" href='https://test-tsl-portfolio.netlify.app'>here</a>.
+          </div>
 
           <div className="tsl-carousel" style={{ display: msg.id===2 ? 'block' : 'none' }}>
             <Carousel activeIndex={index} onSelect={handleSelect}>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src={Ly}
+                  src={spider}
                   alt="First slide"
                 />
               </Carousel.Item>
