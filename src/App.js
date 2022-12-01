@@ -35,7 +35,7 @@ function App() {
     id: 0,
     head: 'Dear visitor',
     body: 'Experience design',
-    foot: 'Recently I’ve been interested in web design so I started learning Reactjs. It would be really interesting for me if I make a job of it. I feel the potential it has.'
+    foot: 'I\'m glad to have you here, welcome!'
   })
   const onMyMouseMove = e => {
     setPosition({
