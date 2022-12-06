@@ -9,11 +9,11 @@ import Neh_9_20 from './public/Neh_9_20.jpg';
 import myself from './public/IMG_20200418_172346.jpg';
 import Sal_122 from './public/Sal_122.7.png';
 import saka from './public/IMG_20170514_170825.jpg';
-import Mn from './public/Mn.png';
+import Mn from './public/Mn.jpg';
 import Ephes_6 from './public/Ephes_6.12.png';
-import Dm from './public/Dm.png';
+import Dm from './public/Dm.jpg';
 import swim from './public/vlcsnap-2021-05-08-07h09m42s163.png';
-import Bd from './public/Bd.png';
+import Bd from './public/Bd.jpg';
 import Lio_15_18a from './public/Lio_15_18a.png';
 import kiki from './public/DSC_0344.JPG';
 import sea from './public/splash_cropped.png';
@@ -21,6 +21,11 @@ import II_Tim_4 from './public/II_Tim_4.5.png';
 import cover from './public/cover.png';
 import Dan_12_3 from './public/Dan_12_3.jpg';
 import postal_card from './public/DSC_0273.JPG';
+import logo_texture_1 from './public/logo.png'
+import logo_texture_2 from './public/logo_texture_2.png'
+import logo_texture_3 from './public/TL_texture.png'
+import ran_painting from './public/drawing_1.png'
+
 
 function App() {
   const [color1, setColor1] = useState('#fff');
@@ -181,6 +186,13 @@ function App() {
                   alt="Third slide"
                 />
               </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={ran_painting}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
             </Carousel>
           </div>
 
@@ -189,14 +201,21 @@ function App() {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src={Ephes_6}
+                  src={logo_texture_3}
                   alt="First slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src={cover}
+                  src={logo_texture_2}
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={logo_texture_1}
                   alt="First slide"
                 />
               </Carousel.Item>
