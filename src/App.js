@@ -408,10 +408,9 @@ render() {
         {/* Socials */}
         <div className="container" style={{ display: this.state.isOpen ? 'none' : 'block' }}>
           <div className="container d-flex flex-column flex-md-row align-items-center justify-content-between">
-            <div className="text-dark order-2 order-md-1">
+            {/* <div className="text-dark order-2 order-md-1">
             <span className="text-muted fw-bold me-1"><a href="mailto:tsilavinarj02@gmail.com?subject=Want%20to%20know%20more&body=Hi%20Garry!">email me</a></span>
-              {/* <span className="text-gray-800"><img alt="Keenthemes Youtube" src={ mail_logo } className="h-20px" />&nbsp;&nbsp;&nbsp;&nbsp;hasin.tsilavina@gmail.com</span> */}
-            </div>
+            </div> */}
             <ul className="menu menu-gray-600 menu-hover-primary fw-bold order-1 align-items-center mb-3 mb-md-0">
               <li className="menu-item">
                 <a href="https://web.facebook.com/media/set/?set=a.3321396001522010&type=3" target="_blank" className="menu-link px-3">
