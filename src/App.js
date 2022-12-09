@@ -69,7 +69,7 @@ render() {
           <h1 className="fs-2hx fw-bolder">
             <p className="display-1 text-hover-primary ls-5">Garry</p><span className="text-white">&nbsp;here!</span></h1>
             <div className="fw-bold fs-3 text-muted mb-10">
-              Graphic Designer & Web developper
+              Graphic Designer & Web developer
               <span><a href="mailto:tsilavinarj02@gmail.com?subject=Want%20to%20know%20more&body=Hi%20Garry!" className="text-muted text-hover-primary px-2">
               <span className="text-gray-800"><img alt="Keenthemes Youtube" src={ gmail } className="h-20px" /></span>
             </a></span>
