@@ -20,7 +20,6 @@ import sea from './public/splash_cropped.png';
 import II_Tim_4 from './public/II_Tim_4.5.png';
 import cover from './public/cover.png';
 import Dan_12_3 from './public/Dan_12_3.jpg';
-import postal_card from './public/DSC_0273.JPG';
 import logo_texture_1 from './public/logo.png'
 import logo_texture_2 from './public/logo_texture_2.png'
 import logo_texture_3 from './public/TL_texture.png'
