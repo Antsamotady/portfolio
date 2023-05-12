@@ -37,7 +37,7 @@ function App() {
   });
   const [msg, setMsg] = useState({
     id: 0,
-    head: 'Dear visitor',
+    head: 'Hi there!',
     body: 'Experience design',
     foot: 'I\'m glad to have you here, welcome!'
   })
